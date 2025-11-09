@@ -1005,3 +1005,57 @@ https://stream717.duckdns.org/hls/stream1.m3u8
 
 #EXTINF:-1 group-title="Pakistan" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Such TV
 https://video.primexsports.com/suchnews/live/playlist.m3u8
+
+
+
+
+
+#EXTM3U
+
+#EXTINF:-1 group-title="Bangla News" tvg-logo="https://i.ibb.co/F4sCCsv/Somoy-TV.png",Somoy TV
+https://ythls.armelin.one/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ.m3u8
+
+#EXTINF:-1 group-title="Bangla News" tvg-logo="https://i.ibb.co/JnZNhqM/Ekattor-TV.png",Ekattor TV
+https://ythls.armelin.one/channel/UCiH3x-VqgkmhmMrR0I3xEzw.m3u8
+
+#EXTINF:-1 group-title="Bangla News" tvg-logo="https://i.ibb.co/m0Q9YdG/Channel-24.png",Channel 24
+https://ythls.armelin.one/channel/UCX6dYzKX2Hgh0P1OYZQOqYA.m3u8
+
+#EXTINF:-1 group-title="Bangla News" tvg-logo="https://i.ibb.co/QYvxPgP/Jamuna-TV.png",Jamuna TV
+https://ythls.armelin.one/channel/UCN6sm8iHiPd0cnoUardDAnw.m3u8
+
+#EXTINF:-1 group-title="Bangla News" tvg-logo="https://i.ibb.co/0XFWyKd/DBC-News.png",DBC News
+https://ythls.armelin.one/channel/UC4sS8q8h1t1AGG9lE-wlC0w.m3u8
+
+#EXTINF:-1 group-title="Bangla Entertainment" tvg-logo="https://i.ibb.co/bJ7rdbB/NTV.png",NTV
+https://ythls.armelin.one/channel/UCWk3d0U5aVYxA6zJ3bqv9Pg.m3u8
+
+#EXTINF:-1 group-title="Bangla Entertainment" tvg-logo="https://i.ibb.co/Btd9rNx/RTV.png",RTV
+https://ythls.armelin.one/channel/UCbL02Sg0ef-JtjK4GZ0LbnA.m3u8
+
+#EXTINF:-1 group-title="Bangla Entertainment" tvg-logo="https://i.ibb.co/hgkcyZk/Maasranga.png",Maasranga TV
+https://ythls.armelin.one/channel/UCs3lN3sOM5nUu5vZJq6U4Jw.m3u8
+
+#EXTINF:-1 group-title="Bangla Entertainment" tvg-logo="https://i.ibb.co/GMZC4cc/ATN-Bangla.png",ATN Bangla
+https://ythls.armelin.one/channel/UCfYl9VfWQGqL7R2v8zrxCtg.m3u8
+
+#EXTINF:-1 group-title="Bangla Entertainment" tvg-logo="https://i.ibb.co/jzzJdKD/Channel-i.png",Channel i
+https://ythls.armelin.one/channel/UCW1rQ1UYR64lZNPzBqP8pWg.m3u8
+
+#EXTINF:-1 group-title="Bangla Sports" tvg-logo="https://i.ibb.co/Q3F9JyKH/T-Sports.jpg",T Sports
+https://ythls.armelin.one/channel/UCaO6VoaYJv4kS-TQO_M-N_g.m3u8
+
+#EXTINF:-1 group-title="Bangla Sports" tvg-logo="https://i.ibb.co/6v8n8MR/GTV.png",GTV (Gazi TV)
+https://ythls.armelin.one/channel/UCO2x-p9gg9TLKneXlibGR7w.m3u8
+
+#EXTINF:-1 group-title="Bangla Islamic" tvg-logo="https://i.ibb.co/FzXPLBv/Peace-TV-Bangla.png",Peace TV Bangla
+https://ythls.armelin.one/channel/UC_9A9q9sB-0ezY4O7d7g9hg.m3u8
+
+#EXTINF:-1 group-title="Bangla Islamic" tvg-logo="https://i.ibb.co/6Fb7jzr/Iqra-TV.png",Iqra Bangla
+https://ythls.armelin.one/channel/UCqjM8kq5JQ0Zbkh3ghNvBfQ.m3u8
+
+#EXTINF:-1 group-title="Bangla Music" tvg-logo="https://i.ibb.co/8m6D1Lj/Channel-I-Music.png",Channel i Music
+https://ythls.armelin.one/channel/UCYl2K_GH6LgZt5z8cxZyT0w.m3u8
+
+#EXTINF:-1 group-title="Bangla Kids" tvg-logo="https://i.ibb.co/3C9ZJvW/Bangla-Kids.png",Duronto TV
+https://ythls.armelin.one/channel/UCsu8oQf6Z74gqD3i6DElWQg.m3u8
