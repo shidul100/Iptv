@@ -180,6 +180,8 @@ https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 http://book4u.top/royr/index.php?id=STAR_JALSHA_FAAH
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/1tmcNHW3/Star-Jalsha-HD.jpg" group-title="Bangla",Star Jalsha HD
 http://103.114.11.41:8081/Star-Jalsha/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bangla-hd.png" group-title="Indian",ZEE BANGLA
+http://103.114.11.41:8081/ZEE-Bangla/index.m3u8?token=1dsfds1fsdf
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/B4U%20Movies.png" group-title="Indian",B4U Kadak
 https://cdn-2.pishow.tv/live/227/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/KjjqnRH/Picsart-23-06-30-21-35-20-283.png" group-title="Indian",Sheemaroo Bollywood
