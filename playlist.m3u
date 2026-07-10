@@ -34,6 +34,8 @@ http://66.102.126.10:8000/play/a076/index.m3u8
 http://66.102.126.10:8000/play/a014/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="Movies",Star Movies HD
 http://66.102.126.10:8000/play/a021/index.m3u8
+#EXTINF:-1 tvg-id="JalshaMovies.in@HD" tvg-logo="https://i.imgur.com/25eWjX2.png" group-title="Movies",Jalsha Movies HD
+http://103.114.11.41:8081/Jalsha-Movies/index.m3u8?token=1dsfds1fsdf
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="Movies",Star Movies Select HD
 http://66.102.126.10:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="Live",Football World Cup 2026
