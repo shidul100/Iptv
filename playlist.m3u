@@ -6,6 +6,8 @@ http://fastshare1.com:8080//live/25711345/late8airline/52500.ts
 http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Sports",T Sports hd 2
 http://103.114.11.41:8081/T-Sports-BDIX/index.m3u8?token=1dsfds1fsdf
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/Ptvsports.png/revision/latest?cb=20240716062910" group-title="Sports",PTV SPORTS
+http://103.114.11.41:8081/PTV-BDIX/index.m3u8?token=1dsfds1fsdf
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="Sports",Football World Cup 2026
 http://fastshare1.com/live/25711345/late8airline/751354.ts
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="Sports",Football World Cup 2026
