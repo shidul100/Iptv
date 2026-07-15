@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1  tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Football World Cup 2026
+#EXTINF:-1  tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png",BTV
 http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Football World Cup 2026
 http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8
