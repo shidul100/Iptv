@@ -119,6 +119,8 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/98853.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20TV.png" group-title="Hindi",Sony entertainment tv
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/144.ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sony%20Max.png" group-title="Hindi Movies",Sony Max
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/151.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",T Sports HD
 http://mag.king-4k.cc/C1645263A1D245C/1sFTVBSVCP/756462
 #EXTINF:-1  tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",PTV
