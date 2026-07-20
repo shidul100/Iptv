@@ -4,7 +4,7 @@
 Welcome to this free IPTV M3U Playlist.
 
 ## Features
-- 📡 290+ Live TV Channels
+- 📡 150+ Live TV Channels
 - 🇧🇩 Bangladeshi Channels
 - 🌍 International Channels
 - 🎬 Movies & Entertainment
