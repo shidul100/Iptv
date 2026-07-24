@@ -123,6 +123,8 @@ http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/151.ts
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/SONY_AATH.png" group-title="india",SONY AATH HD
 http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/4083.ts
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/disneych.png" group-title="KIDS",DISNEY CHANNEL [IN]
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/19741.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Willow Sports
 http://27.124.71.27/Willow_Extra/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Star Sports 1
