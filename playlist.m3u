@@ -127,12 +127,6 @@ http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/4083.ts
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/19741.ts
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png" group-title="English Movie",Star Movies HD
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/98842.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Willow Sports
-http://27.124.71.27/Willow_Extra/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Star Sports 1
-http://103.151.60.204:881/StarSports1/video.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Star Sports 2
-http://103.151.60.204:881/StarSports2/video.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png",Star Jalsha HD
 http://mag.king-4k.cc/C1645263A1D245C/1sFTVBSVCP/63525
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Jalshamovieshd.jpg",Jalsha Movies HD
@@ -143,13 +137,13 @@ http://mag.king-4k.cc/C1645263A1D245C/1sFTVBSVCP/112571
 http://mag.king-4k.cc/C1645263A1D245C/1sFTVBSVCP/108781
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",SONY AATH HD
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Sun Bangla
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sun%20Bangla.png",Sun Bangla
 http://27.124.71.27/Sun_Bangla/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Rajdhani TV
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png",Rajdhani TV
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Ayna TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",NRB HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRctL8rD_FYfZ1rHUDhs_Q3rJwRYGSDbMX0-XHpHFXLjeTC2D9iYwo8Gq3J&s=10",NRB HD
 https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sqeIrMo.jpeg",Jago News 24
 https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
