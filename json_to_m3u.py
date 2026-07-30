@@ -3,7 +3,7 @@ import json
 with open("channels.json", "r", encoding="utf-8") as f:
     channels = json.load(f)
 
-with open("Iptv.m3u", "w", encoding="utf-8") as f:
+with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n\n")
 
     for ch in channels:
