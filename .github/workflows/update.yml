@@ -27,7 +27,7 @@ jobs:
           echo "FILES=$(git diff --name-only HEAD~1 HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
       - name: M3U -> JSON
-        if: contains(steps.changes.outputs.FILES, 'Iptv.m3u')
+        if: contains(steps.changes.outputs.FILES, 'playlist.m3u')
         run: python update.py
 
       - name: JSON -> M3U
