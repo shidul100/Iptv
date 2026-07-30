@@ -3,7 +3,7 @@ import json
 
 channels = []
 
-with open("Iptv.m3u", "r", encoding="utf-8") as f:
+with open("playlist.m3u", "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
 for i in range(len(lines)):
