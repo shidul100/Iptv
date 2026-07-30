@@ -3,7 +3,7 @@ name: Bidirectional IPTV Sync
 on:
   push:
     paths:
-      - "Iptv.m3u"
+      - "playlist.m3u"
       - "channels.json"
 
   workflow_dispatch:
