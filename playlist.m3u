@@ -327,7 +327,7 @@ https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://monirul.bro.bd/assets/images/HISTORY TV HD1745033679.png" group-title="DOCUMENTARY",history
 https://live.thebosstv.com:30443/dwlive/HISTORY/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://monirul.bro.bd/assets/images/TRAVEL XP1745043118.png" group-title="DOCUMENTARY",Travel XP English
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png" group-title="DOCUMENTARY",Travel XP English
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png" group-title="NEWS INTERNASIONAL",Al Jazeera HD
