@@ -258,6 +258,12 @@ http://myxpanel.pro:80/live/Ander1/Ander1/694020.ts
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/National%20Geographic%20Channel.png" group-title="DOCUMENTARY",National Geography HD
 http://202.70.146.135:8000/play/a05o/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MZR248Yw/20240823-024104.png" group-title="DOCUMENTARY",Love Natural
+http://27.124.71.27/Love_Nature/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/43NXkFx5/20240823_023458.png" group-title="DOCUMENTARY",Animal Planet
+http://27.124.71.27/Animal_Planet/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="http://monirul.bro.bd/assets/images/Sangeet Bangla1750870252.png" group-title="BANGLA MUSIC",SANGEET BANGLA
 http://mag.king-4k.cc/C1645263A1D245C/1sFTVBSVCP/63393
 
