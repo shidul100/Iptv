@@ -420,6 +420,20 @@
     "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8"
   },
   {
+    "name": "Discovery Kids",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/wTvMLMp2/20240823_021706.png",
+    "group": "KIDS",
+    "url": "https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8"
+  },
+  {
+    "name": "Pogo",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/C1s5Hf5P/20240823_021444.png",
+    "group": "KIDS",
+    "url": "https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8"
+  },
+  {
     "name": "Motu Patlu",
     "tvg_id": "",
     "logo": "https://i.postimg.cc/WbKqj0w3/1000086946.jpg",
