@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="BANGLADESH",BTV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+https://owrcovcrpy.gpcdn.net/bpk-tv/1725/output/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/shidul100/Iptv/refs/heads/main/TVG%20LOGO/Sangsad.png" group-title="BANGLADESH",BTV Sangsad
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
