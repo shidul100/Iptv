@@ -602,6 +602,20 @@
     "url": "http://202.70.146.135:8000/play/a05o/index.m3u8"
   },
   {
+    "name": "Love Natural",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/MZR248Yw/20240823-024104.png",
+    "group": "DOCUMENTARY",
+    "url": "http://27.124.71.27/Love_Nature/index.m3u8"
+  },
+  {
+    "name": "Animal Planet",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/43NXkFx5/20240823_023458.png",
+    "group": "DOCUMENTARY",
+    "url": "http://27.124.71.27/Animal_Planet/index.m3u8"
+  },
+  {
     "name": "SANGEET BANGLA",
     "tvg_id": "",
     "logo": "http://monirul.bro.bd/assets/images/Sangeet Bangla1750870252.png",
