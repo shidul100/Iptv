@@ -2,6 +2,8 @@ name: Bidirectional IPTV Sync
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "playlist.m3u"
       - "channels.json"
@@ -10,21 +12,36 @@ jobs:
   sync:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+    permissions:
+      contents: write
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - run: python update.py
-      - run: python json_to_m3u.py
+      - name: Update JSON from M3U
+        run: python update.py
 
-      - name: Commit changes
+      - name: Update M3U from JSON
+        run: python json_to_m3u.py
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add playlist.m3u channels.json
 
-          git diff --staged --quiet || git commit -m "Update playlist and channels"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update playlist and channels [skip ci]"
+            git push
+          fi
