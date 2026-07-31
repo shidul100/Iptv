@@ -6,33 +6,19 @@ on:
       - "playlist.m3u"
       - "channels.json"
 
-  workflow_dispatch:
-
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Detect changed file
-        id: changes
-        run: |
-          echo "FILES=$(git diff --name-only HEAD~1 HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
-
-      - name: M3U -> JSON
-        if: contains(steps.changes.outputs.FILES, 'playlist.m3u')
-        run: python update.py
-
-      - name: JSON -> M3U
-        if: contains(steps.changes.outputs.FILES, 'channels.json')
-        run: python json_to_m3u.py
+      - run: python update.py
+      - run: python json_to_m3u.py
 
       - name: Commit changes
         run: |
