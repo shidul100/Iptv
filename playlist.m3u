@@ -156,7 +156,7 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png" group-title="ISLAMIC",Peace TV Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/peacetvban.stream/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj" group-title="ISLAMIC",Saudi Quran
+#EXTINF:-1 tvg-id="" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj" group-title="ISLAMIC",Saudi Quran
 http://bigenterprise.live:8080/live/00612533/17905940/1172576.ts
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://otapp.store/uploads/tv_image/sm/madina-live-tv-sunnah-tv.png" group-title="ISLAMIC",Saudi Sunnah HD
@@ -180,10 +180,10 @@ https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png" group-title="KIDS",Nikki HD
 https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wTvMLMp2/20240823_021706.png" group-title="KIDS",Discovery Kids
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/wTvMLMp2/20240823_021706.png" group-title="KIDS",Discovery Kids
 https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/C1s5Hf5P/20240823_021444.png" group-title="KIDS",Pogo
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/C1s5Hf5P/20240823_021444.png" group-title="KIDS",Pogo
 https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/WbKqj0w3/1000086946.jpg" group-title="KIDS",Motu Patlu
@@ -264,10 +264,10 @@ http://myxpanel.pro:80/live/Ander1/Ander1/694020.ts
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/National%20Geographic%20Channel.png" group-title="DOCUMENTARY",National Geography HD
 http://202.70.146.135:8000/play/a05o/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/MZR248Yw/20240823-024104.png" group-title="DOCUMENTARY",Love Natural
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/MZR248Yw/20240823-024104.png" group-title="DOCUMENTARY",Love Natural
 http://27.124.71.27/Love_Nature/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/43NXkFx5/20240823_023458.png" group-title="DOCUMENTARY",Animal Planet
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/43NXkFx5/20240823_023458.png" group-title="DOCUMENTARY",Animal Planet
 http://27.124.71.27/Animal_Planet/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://monirul.bro.bd/assets/images/Sangeet Bangla1750870252.png" group-title="BANGLA MUSIC",SANGEET BANGLA
@@ -378,7 +378,7 @@ http://103.175.73.12:8080/live/13/13_0.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://otapp.store/uploads/tv_image/sm/b4u-movies.png" group-title="HINDI",B4U Movies
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://monirul.bro.bd/assets/images/9XM MUSIC1750866757.png" group-title="HINDI MUSIC",9XM
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRKS6TwR/20240823_022008.png" group-title="HINDI MUSIC",9XM
 http://103.175.73.12:8080/live/155/155_0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/dbjnG3X/20240803-105403.png" group-title="HINDI MUSIC",E24
