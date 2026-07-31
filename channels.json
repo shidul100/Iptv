@@ -532,6 +532,13 @@
     "url": "http://27.124.71.27/Sun_Bangla/index.m3u8"
   },
   {
+    "name": "Sananda Tv",
+    "tvg_id": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrOMsdkfX7iirtL5LHIosFTqpB8hhdpS7zg&usqp=CAU",
+    "group": "INDIAN BANGLA",
+    "url": "http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8"
+  },
+  {
     "name": "Ayna TV",
     "tvg_id": "",
     "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBhxAik9rvkpRV33kdDl-2drT2X3Y2cU_-lrjlMpmIxzBAGCN50afZnqx8vvxgmbaTVZmYITeOyTW1Fg_CAItfNfgRwsrTcxaB1pecb0Z74oky6LcgXFGIAOz8w8IijqMpMo4dUJ8aMsAF4A0x9Xwt57UCZYxhtEpRfOdqTzmfwVjICILOqg9QPbOFww/s1080/1000021053.png",
@@ -551,13 +558,6 @@
     "logo": "https://www.jagobd.com/wp-content/uploads/2024/08/jagonews.jpg",
     "group": "BANGLADESH",
     "url": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8"
-  },
-  {
-    "name": "Sananda Tv",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrOMsdkfX7iirtL5LHIosFTqpB8hhdpS7zg&usqp=CAU",
-    "group": "INDIAN BANGLA",
-    "url": "http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8"
   },
   {
     "name": "TBN 24",
