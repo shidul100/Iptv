@@ -9,7 +9,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png" group-title="SPORTS",T SPORTS
 https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMpWmLb0Ts759Tjsp/m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png" group-title="SPORTS",Ten Cricket
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png" group-title="SPORTS",Ten Cricket
 https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Somoy%20TV.jpeg" group-title="BANGLADESH",Somoy TV
@@ -232,7 +232,7 @@ http://mpro4.site/live/1F17Z77UP9F3ZW5/qfASHrMbe4/76205.ts
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/98881.ts
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png" group-title="INDIAN BANGLA",Colors Bangla
-https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/98882.ts
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sun%20Bangla.png" group-title="INDIAN BANGLA",Sun Bangla
 http://27.124.71.27/Sun_Bangla/index.m3u8
