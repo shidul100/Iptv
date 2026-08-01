@@ -330,6 +330,9 @@ https://live.thebosstv.com:30443/dwlive/HISTORY/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png" group-title="DOCUMENTARY",Travel XP English
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp" group-title="DOCUMENTARY",TLC
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/36.ts
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png" group-title="NEWS INTERNASIONAL",Al Jazeera HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8
 
