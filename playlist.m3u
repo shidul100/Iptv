@@ -330,7 +330,7 @@ https://live.thebosstv.com:30443/dwlive/HISTORY/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png" group-title="DOCUMENTARY",Travel XP English
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp" group-title="DOCUMENTARY",TLC
+#EXTINF:-1 tvg-id="" tvg-logo="https://assets-prod.services.toffeelive.com/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp" group-title="DOCUMENTARY",TLC
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/36.ts
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png" group-title="NEWS INTERNASIONAL",Al Jazeera HD
@@ -348,7 +348,7 @@ http://bigenterprise.live:8080/live/00612533/17905940/999753.ts
 #EXTINF:-1 tvg-id="" tvg-logo="https://otapp.store/uploads/tv_image/sm/dhoom-music-bangla.png" group-title="BANGLA MUSIC",Dhoom Music
 http://103.175.73.12:8080/live/378/378_0.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="HINDI MOVIE",Zee Anmol TV
+#EXTINF:-1 tvg-id="" tvg-logo="https://assets-prod.services.toffeelive.com/7x0Jd5YBEef-9-uVv_Gy/posters/f630a176-73cc-48d7-94cf-69ba0d201b36.png" group-title="HINDI MOVIE",Zee Anmol TV
 http://103.175.73.12:8080/live/256/256_0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/KjjqnRH/Picsart-23-06-30-21-35-20-283.png" group-title="HINDI MOVIE",Sheemaroo Bollywood
