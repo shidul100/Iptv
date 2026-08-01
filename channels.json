@@ -21,6 +21,13 @@
     "url": "https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMpWmLb0Ts759Tjsp/m3u8"
   },
   {
+    "name": "Ten Cricket",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/0yzwt46Q/20241126-220214.png",
+    "group": "SPORTS",
+    "url": "https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8"
+  },
+  {
     "name": "Somoy TV",
     "tvg_id": "",
     "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Somoy%20TV.jpeg",
