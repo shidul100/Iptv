@@ -12,6 +12,12 @@ https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMp
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png" group-title="SPORTS",Ten Cricket
 https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png" group-title="SPORTS",Bein Sports
+https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png" group-title="SPORTS",Bein Sports xtra
+https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Somoy%20TV.jpeg" group-title="BANGLADESH",Somoy TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
 
