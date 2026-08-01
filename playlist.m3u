@@ -165,7 +165,7 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Sab.jpeg" group-title="HINDI",Sony Sab
 https://stream.ottplus.bd/live/sub_hd_abr/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Plus.png" group-title="HINDI",Star Plus
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Plus.png" group-title="HINDI",Star Plus
 http://202.70.146.135:8000/play/a009/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20TV.png" group-title="HINDI",Sony entertainment tv
@@ -219,8 +219,8 @@ https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playli
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" group-title="INDIAN BANGLA",Star Jalsha HD
 http://filex.me:8080/live/3114654477/5787654467/522638.ts
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" group-title="INDIAN BANGLA",Star Jalsha HD 2
-http://skylikem.com/live/2VZWJC3W/B7D7XK4T/97525.ts
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" group-title="INDIAN BANGLA",Star Jalsha HD 2
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/98883.ts
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Jalshamovieshd.jpg" group-title="INDIAN BANGLA",Jalsha Movies HD
 http://mpro4.site/live/1F17Z77UP9F3ZW5/qfASHrMbe4/76205.ts
@@ -267,7 +267,7 @@ http://202.70.146.135:8000/play/a05z/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp" group-title="DOCUMENTARY",Discovery Bangla
 http://myxpanel.pro:80/live/Ander1/Ander1/694020.ts
 
-#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp" group-title="DOCUMENTARY",Discovery Bangla 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp" group-title="DOCUMENTARY",Discovery Bangla 2
 https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/National%20Geographic%20Channel.png" group-title="DOCUMENTARY",National Geography HD
