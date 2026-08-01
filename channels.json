@@ -28,6 +28,20 @@
     "url": "https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8"
   },
   {
+    "name": "Bein Sports",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png",
+    "group": "SPORTS",
+    "url": "https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8"
+  },
+  {
+    "name": "Bein Sports xtra",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png",
+    "group": "SPORTS",
+    "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
+  },
+  {
     "name": "Somoy TV",
     "tvg_id": "",
     "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Somoy%20TV.jpeg",
