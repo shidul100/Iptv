@@ -12,10 +12,10 @@ https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMp
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png" group-title="SPORTS",Ten Cricket
 https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png" group-title="SPORTS",Bein Sports
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png" group-title="SPORTS",Bein Sports
 https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png" group-title="SPORTS",Bein Sports xtra
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png" group-title="SPORTS",Bein Sports xtra
 https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Somoy%20TV.jpeg" group-title="BANGLADESH",Somoy TV
@@ -112,7 +112,7 @@ http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/433.ts
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png" group-title="BANGLADESH",Bangla TV
-http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/3803.ts
+https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8
 
 #EXTINF:-1 tvg-id="185000" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png" group-title="BANGLADESH",DBC News HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
@@ -234,7 +234,7 @@ http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/198.ts
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Jalshamovieshd.jpg" group-title="INDIAN BANGLA",Jalsha Movies HD
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/425.ts
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla%20Cinema.png" group-title="INDIAN BANGLA",Colors Bangla Cinema
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla%20Cinema.png" group-title="INDIAN BANGLA",Colors Bangla Cinema
 https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1657
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/kK2aX5UBrjBfS2_RBcKf/posters/ba5dd8dc-4f87-414a-b57f-c9ecdeda5253.png" group-title="INDIAN BANGLA",Zee Bangla HD
