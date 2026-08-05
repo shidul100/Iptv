@@ -63,6 +63,13 @@
     "url": "https://go.skym3u.top/live/3b1f0d3d095a7023085f000e000c1c01337d110c024a34325d5e5b442607260440193e3d3a21204e1e17010c267d150b025a1d3b0f535a573d051c216c1c79360a0000001a5840196c265d.m3u8"
   },
   {
+    "name": "Bangla 1",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/R0J6rLBn/r2Pe-JQRk-KVBJNHu-A1u-ABt-MFat3ZFl-Xm4oj-Tt5SWI.png",
+    "group": "BANGLADESH",
+    "url": "https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8"
+  },
+  {
     "name": "NTV",
     "tvg_id": "99000",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
@@ -305,14 +312,14 @@
     "tvg_id": "",
     "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%201.png",
     "group": "BANGLADESH",
-    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/playlist.m3u8"
   },
   {
     "name": "Star News",
     "tvg_id": "",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
     "group": "BANGLADESH",
-    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8"
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8"
   },
   {
     "name": "Channel 16",
