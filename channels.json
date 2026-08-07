@@ -18,7 +18,7 @@
     "tvg_id": "",
     "logo": "https://i.postimg.cc/yNQfGnnb/RLr-MBlm.png",
     "group": "SPORTS",
-    "url": "https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8"
+    "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/6625.ts"
   },
   {
     "name": "Bein Sports xtra",
@@ -37,14 +37,14 @@
   {
     "name": "PTV Sports HD",
     "tvg_id": "",
-    "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/PTV%20Sports.png",
+    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_5704c544bcbe25521134b299a0298be7_playmist_ptv_sports_400x400.jpg",
     "group": "SPORTS",
     "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018"
   },
   {
     "name": "ATN Bangla",
     "tvg_id": "",
-    "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png",
+    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/3a36a406fcc9616cd0b32514bb29eb36.jpg",
     "group": "BANGLADESH",
     "url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8"
   },
@@ -79,7 +79,7 @@
   {
     "name": "RTV",
     "tvg_id": "",
-    "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/RTV.png",
+    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_d6c5ece652161d2d88ed547f00343687_playmist_rtv_400x400.jpg",
     "group": "BANGLADESH",
     "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8"
   },
@@ -100,7 +100,7 @@
   {
     "name": "Ekushay TV",
     "tvg_id": "ekushey.bd",
-    "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png",
+    "logo": "https://s4.gifyu.com/images/image534fa27d7683f33d.png",
     "group": "BANGLADESH",
     "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/tracks-v1a1/mono.m3u8?wmsAuthSign="
   },
@@ -437,7 +437,14 @@
     "name": "Nick Bangla",
     "tvg_id": "",
     "logo": "https://otapp.store/uploads/tv_image/sm/nick-bangla.png",
-    "group": "Cartoon",
+    "group": "KIDS",
+    "url": "#https://madanitv.assadikb.workers.dev/live.php?id=1341&e=.m3u8"
+  },
+  {
+    "name": "Nickelodeon",
+    "tvg_id": "",
+    "logo": "https://i2-prod.mirror.co.uk/article33809942.ece/ALTERNATES/s1200f/2_nickelodeon_old_logo.png",
+    "group": "KIDS",
     "url": "#https://madanitv.assadikb.workers.dev/live.php?id=1341&e=.m3u8"
   },
   {
@@ -572,13 +579,6 @@
     "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sun%20Bangla.png",
     "group": "INDIAN BANGLA",
     "url": "http://27.124.71.27/Sun_Bangla/index.m3u8"
-  },
-  {
-    "name": "Sananda Tv",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrOMsdkfX7iirtL5LHIosFTqpB8hhdpS7zg&usqp=CAU",
-    "group": "INDIAN BANGLA",
-    "url": "http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8"
   },
   {
     "name": "Ayna TV",
@@ -985,5 +985,12 @@
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4QJIbm5AJUR2DxA4ChOekh2jveNwgRSfqjvBkoyomA&s=10",
     "group": "HINDI MUSIC",
     "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8"
+  },
+  {
+    "name": "Sananda Tv",
+    "tvg_id": "",
+    "logo": "https://i.postimg.cc/Kc7BJRCy/20240823-020704.png",
+    "group": "INDIAN BANGLA",
+    "url": "https://live.sanandatelevision.in/sananda/tracks-v1a1/mono.m3u8"
   }
 ]
