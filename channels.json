@@ -434,6 +434,13 @@
     "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8"
   },
   {
+    "name": "Nick Bangla",
+    "tvg_id": "",
+    "logo": "https://otapp.store/uploads/tv_image/sm/nick-bangla.png",
+    "group": "Cartoon",
+    "url": "#https://madanitv.assadikb.workers.dev/live.php?id=1341&e=.m3u8"
+  },
+  {
     "name": "Nikki HD",
     "tvg_id": "",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
@@ -525,11 +532,11 @@
     "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/198.ts"
   },
   {
-    "name": "Star Jalsha FHD",
+    "name": "Star Jalsha",
     "tvg_id": "",
     "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png",
     "group": "INDIAN BANGLA",
-    "url": "http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/198.ts"
+    "url": "https://sm-monirul.top/@monirul_Islam_SM/stream.php?id=star_jalsha&formet=.m3u8"
   },
   {
     "name": "Jalsha Movies HD",
