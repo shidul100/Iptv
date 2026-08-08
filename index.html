@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Web TV</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      color: white;
+      font-family: Arial;
+    }
+
+    h2 {
+      padding: 15px;
+    }
+
+    #player {
+      width: 100%;
+      max-height: 500px;
+      background: black;
+    }
+
+    #channels {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+      gap: 10px;
+      padding: 15px;
+    }
+
+    button {
+      padding: 15px;
+      background: #222;
+      color: white;
+      border: 1px solid #444;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>📺 My Web TV</h2>
+
+<video id="player" controls></video>
+
+<div id="channels"></div>
+
+<script>
+const playlist =
+"https://raw.githubusercontent.com/shidul100/Iptv/refs/heads/main/playlist.m3u";
+
+const player = document.getElementById("player");
+const channels = document.getElementById("channels");
+
+fetch(playlist)
+.then(response => response.text())
+.then(data => {
+
+  const lines = data.split("\n");
+
+  for(let i = 0; i < lines.length; i++){
+
+    if(lines[i].startsWith("#EXTINF")){
+
+      const name = lines[i].split(",").pop().trim();
+      const url = lines[i + 1].trim();
+
+      if(!url || url.startsWith("#")) continue;
+
+      const button = document.createElement("button");
+      button.textContent = name;
+
+      button.onclick = () => playChannel(url);
+
+      channels.appendChild(button);
+    }
+  }
+});
+
+function playChannel(url){
+
+  if(Hls.isSupported()){
+
+    const hls = new Hls();
+
+    hls.loadSource(url);
+    hls.attachMedia(player);
+
+  }else{
+
+    player.src = url;
+  }
+
+  player.play();
+}
+</script>
+
+</body>
+</html>
