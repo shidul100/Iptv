@@ -13,8 +13,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* ================= HEADER ================= */
-
+/* HEADER */
 header {
     position: sticky;
     top: 0;
@@ -41,8 +40,7 @@ header {
     font-size: 15px;
 }
 
-/* ================= CATEGORY ================= */
-
+/* CATEGORY */
 .categories {
     display: flex;
     gap: 7px;
@@ -69,8 +67,7 @@ header {
     background: #e50914;
 }
 
-/* ================= PLAYER ================= */
-
+/* PLAYER */
 .player-container {
     position: sticky;
     top: 109px;
@@ -91,17 +88,17 @@ video {
     height: auto;
     max-height: 55vh;
     min-height: 200px;
-    background: black;
+    background: #000;
 }
 
 .player-status {
     position: absolute;
     left: 10px;
     top: 10px;
-    padding: 5px 9px;
+    padding: 6px 10px;
     border-radius: 5px;
-    background: rgba(0,0,0,.65);
-    color: #fff;
+    background: rgba(0,0,0,.75);
+    color: white;
     font-size: 12px;
     display: none;
 }
@@ -119,14 +116,13 @@ video {
 }
 
 .now-playing {
-    padding: 8px 12px;
+    padding: 9px 12px;
     background: #111;
     font-size: 14px;
-    min-height: 35px;
+    min-height: 36px;
 }
 
-/* ================= CHANNEL GRID ================= */
-
+/* CHANNEL GRID */
 #channelGrid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -179,8 +175,7 @@ video {
     margin-top: 3px;
 }
 
-/* ================= LOADING ================= */
-
+/* LOADING */
 #loading {
     text-align: center;
     padding: 30px;
@@ -194,8 +189,7 @@ video {
     color: #ff6b6b;
 }
 
-/* ================= MOBILE ================= */
-
+/* MOBILE */
 @media (max-width: 600px) {
 
     #channelGrid {
@@ -232,8 +226,7 @@ video {
     }
 }
 
-/* ================= VERY SMALL MOBILE ================= */
-
+/* VERY SMALL MOBILE */
 @media (max-width: 360px) {
 
     #channelGrid {
@@ -259,13 +252,16 @@ video {
     placeholder="Search channel..."
 >
 
-<div class="categories" id="categories">
+<div
+    class="categories"
+    id="categories"
+>
     <button class="category-btn active">
         All
     </button>
 </div>
 
-</header><!-- ================= VIDEO PLAYER ================= --><div class="player-container"><div class="video-box">
+</header><!-- PLAYER --><div class="player-container"><div class="video-box">
 
     <video
         id="videoPlayer"
@@ -273,6 +269,7 @@ video {
         playsinline
         webkit-playsinline
         preload="metadata"
+        crossorigin="anonymous"
     ></video>
 
     <div
@@ -374,7 +371,9 @@ async function loadPlaylist() {
         errorBox.style.display = "none";
 
         const response = await fetch(
-            PLAYLIST_URL + "?t=" + Date.now(),
+            PLAYLIST_URL +
+            "?t=" +
+            Date.now(),
             {
                 cache: "no-store"
             }
@@ -392,7 +391,8 @@ async function loadPlaylist() {
         channels =
             parseM3U(text);
 
-        loading.style.display = "none";
+        loading.style.display =
+            "none";
 
         if (!channels.length) {
 
@@ -431,7 +431,8 @@ async function loadPlaylist() {
 
 function parseM3U(text) {
 
-    const lines = text
+    const lines =
+        text
         .split(/\r?\n/)
         .map(line => line.trim())
         .filter(Boolean);
@@ -446,13 +447,14 @@ function parseM3U(text) {
 
         if (
             !lines[i]
-                .toUpperCase()
-                .startsWith("#EXTINF")
+            .toUpperCase()
+            .startsWith("#EXTINF")
         ) {
             continue;
         }
 
-        const info = lines[i];
+        const info =
+            lines[i];
 
         let url = "";
 
@@ -466,16 +468,19 @@ function parseM3U(text) {
                 !lines[j].startsWith("#")
             ) {
 
-                url = lines[j];
+                url =
+                    lines[j];
 
                 break;
             }
         }
 
-        if (!url) continue;
+        if (!url) {
+            continue;
+        }
 
 
-        /* CHANNEL NAME */
+        /* NAME */
 
         let name =
             info.substring(
@@ -496,8 +501,8 @@ function parseM3U(text) {
 
         const logo =
             logoMatch
-                ? logoMatch[1]
-                : "";
+            ? logoMatch[1]
+            : "";
 
 
         /* GROUP */
@@ -510,8 +515,8 @@ function parseM3U(text) {
         const group =
             groupMatch &&
             groupMatch[1]
-                ? groupMatch[1]
-                : "OTHER";
+            ? groupMatch[1]
+            : "OTHER";
 
 
         /* ID */
@@ -523,18 +528,16 @@ function parseM3U(text) {
 
         const id =
             idMatch
-                ? idMatch[1]
-                : "";
+            ? idMatch[1]
+            : "";
 
 
         result.push({
-
             name,
             logo,
             group,
             id,
             url
-
         });
     }
 
@@ -571,14 +574,16 @@ function createCategories() {
 function addCategoryButton(category) {
 
     const button =
-        document.createElement("button");
+        document.createElement(
+            "button"
+        );
 
     button.className =
         "category-btn" +
         (
             category === "ALL"
-                ? " active"
-                : ""
+            ? " active"
+            : ""
         );
 
     button.textContent =
@@ -590,16 +595,16 @@ function addCategoryButton(category) {
             category;
 
         document
-            .querySelectorAll(
-                ".category-btn"
-            )
-            .forEach(btn => {
+        .querySelectorAll(
+            ".category-btn"
+        )
+        .forEach(btn => {
 
-                btn.classList.remove(
-                    "active"
-                );
+            btn.classList.remove(
+                "active"
+            );
 
-            });
+        });
 
         button.classList.add(
             "active"
@@ -615,6 +620,22 @@ function addCategoryButton(category) {
 
 
 /* =========================================================
+   PLACEHOLDER LOGO
+========================================================= */
+
+function placeholderLogo(name) {
+
+    return (
+        "https://via.placeholder.com/300/111111/ffffff" +
+        "?text=" +
+        encodeURIComponent(
+            name.substring(0, 10)
+        )
+    );
+}
+
+
+/* =========================================================
    RENDER CHANNELS
 ========================================================= */
 
@@ -622,8 +643,8 @@ function renderChannels() {
 
     const keyword =
         search.value
-            .toLowerCase()
-            .trim();
+        .toLowerCase()
+        .trim();
 
     grid.innerHTML = "";
 
@@ -637,8 +658,8 @@ function renderChannels() {
 
             const searchOK =
                 channel.name
-                    .toLowerCase()
-                    .includes(keyword);
+                .toLowerCase()
+                .includes(keyword);
 
             return (
                 categoryOK &&
@@ -650,13 +671,13 @@ function renderChannels() {
     filtered.forEach(channel => {
 
         const card =
-            document.createElement("div");
+            document.createElement(
+                "div"
+            );
 
         card.className =
             "channel";
 
-
-        /* Active channel */
 
         if (
             currentChannel &&
@@ -671,7 +692,9 @@ function renderChannels() {
 
 
         const img =
-            document.createElement("img");
+            document.createElement(
+                "img"
+            );
 
         img.className =
             "channel-logo";
@@ -684,7 +707,7 @@ function renderChannels() {
 
         img.src =
             channel.logo ||
-            createPlaceholderLogo(
+            placeholderLogo(
                 channel.name
             );
 
@@ -696,14 +719,16 @@ function renderChannels() {
                     null;
 
                 this.src =
-                    createPlaceholderLogo(
+                    placeholderLogo(
                         channel.name
                     );
             };
 
 
         const name =
-            document.createElement("div");
+            document.createElement(
+                "div"
+            );
 
         name.className =
             "channel-name";
@@ -713,7 +738,9 @@ function renderChannels() {
 
 
         const group =
-            document.createElement("div");
+            document.createElement(
+                "div"
+            );
 
         group.className =
             "channel-group";
@@ -734,34 +761,14 @@ function renderChannels() {
             playChannel(channel);
 
             window.scrollTo({
-
                 top: 0,
-
                 behavior: "smooth"
-
             });
         };
 
 
         grid.appendChild(card);
-
     });
-}
-
-
-/* =========================================================
-   PLACEHOLDER LOGO
-========================================================= */
-
-function createPlaceholderLogo(name) {
-
-    return (
-        "https://via.placeholder.com/300/111111/ffffff" +
-        "?text=" +
-        encodeURIComponent(
-            name.substring(0, 12)
-        )
-    );
 }
 
 
@@ -771,7 +778,9 @@ function createPlaceholderLogo(name) {
 
 function destroyPlayer() {
 
-    clearTimeout(retryTimer);
+    clearTimeout(
+        retryTimer
+    );
 
     retryTimer = null;
 
@@ -781,16 +790,12 @@ function destroyPlayer() {
     if (hls) {
 
         try {
-
             hls.stopLoad();
+        } catch (e) {}
 
+        try {
             hls.destroy();
-
-        } catch (e) {
-
-            console.warn(e);
-
-        }
+        } catch (e) {}
 
         hls = null;
     }
@@ -804,30 +809,27 @@ function destroyPlayer() {
 
     video.load();
 
-    liveBadge.style.display =
-        "none";
 
     playerStatus.style.display =
+        "none";
+
+    liveBadge.style.display =
         "none";
 }
 
 
 /* =========================================================
-   DETECT HLS
+   HLS DETECTION
 ========================================================= */
 
 function isHLS(url) {
 
-    const cleanURL =
-        url
-            .split("?")[0]
-            .toLowerCase();
+    const lower =
+        url.toLowerCase();
 
     return (
-        cleanURL.endsWith(".m3u8") ||
-        url.toLowerCase().includes(
-            ".m3u8?"
-        )
+        lower.includes(".m3u8") ||
+        lower.includes("application/vnd.apple.mpegurl")
     );
 }
 
@@ -887,20 +889,14 @@ function playChannel(channel) {
     );
 
 
-    /* =====================================================
-       HLS
-    ===================================================== */
-
-    if (
-        isHLS(url) &&
-        window.Hls &&
-        Hls.isSupported()
-    ) {
-
-        startHLS(url);
-
-        return;
-    }
+    /*
+     * IMPORTANT:
+     *
+     * First try native HLS when the browser
+     * supports it.
+     *
+     * Otherwise use HLS.js.
+     */
 
 
     /* =====================================================
@@ -921,7 +917,23 @@ function playChannel(channel) {
 
 
     /* =====================================================
-       NORMAL HTML5 VIDEO
+       HLS.JS
+    ===================================================== */
+
+    if (
+        isHLS(url) &&
+        window.Hls &&
+        Hls.isSupported()
+    ) {
+
+        startHLS(url);
+
+        return;
+    }
+
+
+    /* =====================================================
+       NORMAL VIDEO
     ===================================================== */
 
     startNormalVideo(url);
@@ -929,53 +941,29 @@ function playChannel(channel) {
 
 
 /* =========================================================
-   START HLS.JS
+   NATIVE HLS
 ========================================================= */
 
-function startHLS(url) {
+function startNativeHLS(url) {
 
-    hls = new Hls({
+    console.log(
+        "Using native HLS"
+    );
 
-        enableWorker: true,
+    video.src =
+        url;
 
-        lowLatencyMode: true,
-
-        backBufferLength: 30,
-
-        maxBufferLength: 30,
-
-        maxMaxBufferLength: 60,
-
-        startLevel: -1,
-
-        capLevelToPlayerSize: true,
-
-        liveSyncDurationCount: 3,
-
-        liveMaxLatencyDurationCount: 6,
-
-        manifestLoadingMaxRetry: 3,
-
-        levelLoadingMaxRetry: 3,
-
-        fragLoadingMaxRetry: 3,
-
-        manifestLoadingRetryDelay: 1000,
-
-        levelLoadingRetryDelay: 1000,
-
-        fragLoadingRetryDelay: 1000
-    });
+    video.load();
 
 
-    hls.loadSource(url);
+    video.addEventListener(
+        "loadedmetadata",
+        function nativePlay() {
 
-    hls.attachMedia(video);
-
-
-    hls.on(
-        Hls.Events.MANIFEST_PARSED,
-        function() {
+            video.removeEventListener(
+                "loadedmetadata",
+                nativePlay
+            );
 
             setStatus(
                 "Playing..."
@@ -985,8 +973,96 @@ function startHLS(url) {
                 "block";
 
             video.play()
-                .catch(() => {});
+            .catch(() => {
 
+                setStatus(
+                    "Tap ▶ to play"
+                );
+
+            });
+        }
+    );
+}
+
+
+/* =========================================================
+   HLS.JS
+========================================================= */
+
+function startHLS(url) {
+
+    console.log(
+        "Using HLS.js"
+    );
+
+
+    hls =
+        new Hls({
+
+            enableWorker: true,
+
+            lowLatencyMode: true,
+
+            backBufferLength: 30,
+
+            maxBufferLength: 30,
+
+            maxMaxBufferLength: 60,
+
+            startLevel: -1,
+
+            capLevelToPlayerSize: true,
+
+            liveSyncDurationCount: 3,
+
+            liveMaxLatencyDurationCount: 6,
+
+            manifestLoadingMaxRetry: 3,
+
+            levelLoadingMaxRetry: 3,
+
+            fragLoadingMaxRetry: 3,
+
+            manifestLoadingRetryDelay: 1000,
+
+            levelLoadingRetryDelay: 1000,
+
+            fragLoadingRetryDelay: 1000
+        });
+
+
+    hls.loadSource(
+        url
+    );
+
+    hls.attachMedia(
+        video
+    );
+
+
+    hls.on(
+        Hls.Events.MANIFEST_PARSED,
+        function() {
+
+            console.log(
+                "HLS manifest loaded"
+            );
+
+            setStatus(
+                "Playing..."
+            );
+
+            liveBadge.style.display =
+                "block";
+
+            video.play()
+            .catch(() => {
+
+                setStatus(
+                    "Tap ▶ to play"
+                );
+
+            });
         }
     );
 
@@ -1019,12 +1095,14 @@ function startHLS(url) {
         ) {
 
             console.warn(
-                "HLS ERROR:",
+                "HLS error:",
                 data
             );
 
 
-            if (!data.fatal) {
+            if (
+                !data.fatal
+            ) {
                 return;
             }
 
@@ -1046,7 +1124,9 @@ function startHLS(url) {
 
                 } catch (e) {
 
-                    retryHLS(url);
+                    retryHLS(
+                        url
+                    );
                 }
 
                 return;
@@ -1060,22 +1140,24 @@ function startHLS(url) {
                 Hls.ErrorTypes.NETWORK_ERROR
             ) {
 
-                retryHLS(url);
+                retryHLS(
+                    url
+                );
 
                 return;
             }
 
 
-            /* OTHER FATAL ERROR */
-
-            retryHLS(url);
+            retryHLS(
+                url
+            );
         }
     );
 }
 
 
 /* =========================================================
-   HLS RETRY
+   RETRY HLS
 ========================================================= */
 
 function retryHLS(url) {
@@ -1085,7 +1167,7 @@ function retryHLS(url) {
     ) {
 
         showPlayerError(
-            "Stream unavailable after multiple retries."
+            "Stream unavailable. Check the stream URL or server access."
         );
 
         return;
@@ -1093,6 +1175,7 @@ function retryHLS(url) {
 
 
     retryCount++;
+
 
     const delay =
         Math.min(
@@ -1117,15 +1200,17 @@ function retryHLS(url) {
         setTimeout(
             () => {
 
-                if (
-                    !hls
-                ) {
+                if (!hls) {
                     return;
                 }
 
                 try {
 
                     hls.stopLoad();
+
+                    hls.loadSource(
+                        url
+                    );
 
                     hls.startLoad();
 
@@ -1142,73 +1227,43 @@ function retryHLS(url) {
 
 
 /* =========================================================
-   NATIVE HLS
-========================================================= */
-
-function startNativeHLS(url) {
-
-    video.src = url;
-
-    video.load();
-
-
-    video.addEventListener(
-        "loadedmetadata",
-        function nativePlay() {
-
-            video.removeEventListener(
-                "loadedmetadata",
-                nativePlay
-            );
-
-            setStatus(
-                "Playing..."
-            );
-
-            liveBadge.style.display =
-                "block";
-
-            video.play()
-                .catch(() => {});
-
-        }
-    );
-}
-
-
-/* =========================================================
    NORMAL VIDEO
 ========================================================= */
 
 function startNormalVideo(url) {
 
-    video.src = url;
+    console.log(
+        "Using HTML5 video"
+    );
+
+
+    video.src =
+        url;
 
     video.load();
 
 
     video.play()
-        .then(() => {
+    .then(() => {
 
-            setStatus(
-                "Playing..."
-            );
+        setStatus(
+            "Playing..."
+        );
 
-        })
-        .catch(() => {
+    })
+    .catch(() => {
 
-            setStatus("");
+        setStatus("");
 
-            showPlayerError(
-                "Tap the play button to start this stream."
-            );
-
-        });
+        showPlayerError(
+            "Tap ▶ to start this stream."
+        );
+    });
 }
 
 
 /* =========================================================
-   PLAYER STATUS
+   STATUS
 ========================================================= */
 
 function setStatus(message) {
@@ -1231,7 +1286,7 @@ function setStatus(message) {
 
 
 /* =========================================================
-   PLAYER ERROR
+   ERROR
 ========================================================= */
 
 function showPlayerError(message) {
@@ -1243,7 +1298,9 @@ function showPlayerError(message) {
 
     nowPlaying.innerHTML =
         "⚠️ " +
-        escapeHTML(message);
+        escapeHTML(
+            message
+        );
 }
 
 
@@ -1258,7 +1315,7 @@ search.addEventListener(
 
 
 /* =========================================================
-   ESCAPE HTML
+   HTML ESCAPE
 ========================================================= */
 
 function escapeHTML(text) {
@@ -1322,9 +1379,7 @@ video.addEventListener(
     "playing",
     function() {
 
-        setStatus(
-            ""
-        );
+        setStatus("");
 
         if (
             currentChannel
@@ -1388,7 +1443,7 @@ video.addEventListener(
 
 
 /* =========================================================
-   PAGE VISIBILITY
+   VISIBILITY RECOVERY
 ========================================================= */
 
 document.addEventListener(
@@ -1401,14 +1456,10 @@ document.addEventListener(
             return;
         }
 
-        /*
-         * When user returns to page,
-         * try to recover a stalled HLS stream.
-         */
 
         if (
             hls &&
-            video.paused === false
+            !video.paused
         ) {
 
             try {
@@ -1416,7 +1467,6 @@ document.addEventListener(
                 hls.startLoad();
 
             } catch (e) {}
-
         }
     }
 );
