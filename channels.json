@@ -9,7 +9,7 @@
   {
     "name": "Ten Cricket",
     "tvg_id": "",
-    "logo": "https://i.postimg.cc/0yzwt46Q/20241126-220214.png",
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
     "group": "SPORTS",
     "url": "https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8"
   },
@@ -63,13 +63,6 @@
     "url": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8"
   },
   {
-    "name": "Bangla 1",
-    "tvg_id": "",
-    "logo": "https://i.postimg.cc/R0J6rLBn/r2Pe-JQRk-KVBJNHu-A1u-ABt-MFat3ZFl-Xm4oj-Tt5SWI.png",
-    "group": "BANGLADESH",
-    "url": "https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8"
-  },
-  {
     "name": "NTV",
     "tvg_id": "99000",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
@@ -81,7 +74,7 @@
     "tvg_id": "",
     "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_d6c5ece652161d2d88ed547f00343687_playmist_rtv_400x400.jpg",
     "group": "BANGLADESH",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8"
+    "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8"
   },
   {
     "name": "Bangla Vision",
@@ -95,7 +88,7 @@
     "tvg_id": "BOISHAKHITV.bd",
     "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/08/Boishakhi_TV_HD_logo_2022.png",
     "group": "BANGLADESH",
-    "url": "http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/429.ts"
+    "url": "https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/tracks-v1a1/mono.ts.m3u8"
   },
   {
     "name": "Ekushay TV",
@@ -109,7 +102,7 @@
     "tvg_id": "229000",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
     "group": "BANGLADESH",
-    "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/1036.ts"
+    "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8"
   },
   {
     "name": "Channel 1 News",
@@ -212,7 +205,7 @@
   {
     "name": "Asian TV",
     "tvg_id": "",
-    "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg",
+    "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png",
     "group": "BANGLADESH",
     "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/tracks-v1a1/mono.m3u8"
   },
@@ -312,7 +305,7 @@
     "tvg_id": "",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",
     "group": "BANGLADESH",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/index.m3u8"
+    "url": "https://app.ncare.live/live-orgin/channels.stream/live-orgin/channels.stream/chunks.m3u8"
   },
   {
     "name": "Star News",
