@@ -32,7 +32,7 @@
     "tvg_id": "",
     "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_5704c544bcbe25521134b299a0298be7_playmist_ptv_sports_400x400.jpg",
     "group": "SPORTS",
-    "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8"
+    "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018"
   },
   {
     "name": "Somoy TV",
@@ -95,7 +95,7 @@
     "tvg_id": "ekushey.bd",
     "logo": "https://s4.gifyu.com/images/image534fa27d7683f33d.png",
     "group": "BANGLADESH",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/tracks-v1a1/mono.m3u8?wmsAuthSign="
+    "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8"
   },
   {
     "name": "Maasranga TV",
@@ -116,7 +116,7 @@
     "tvg_id": "",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
     "group": "BANGLADESH",
-    "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/428.ts"
+    "url": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8"
   },
   {
     "name": "Independent TV",
@@ -158,7 +158,7 @@
     "tvg_id": "",
     "logo": "https://i.imgur.com/ENyPcL0.png",
     "group": "BANGLADESH",
-    "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/397.ts"
+    "url": "https://sm-iptv.sm-monirul-islam-rs.workers.dev/aynaott/mohona_tv/index.m3u8"
   },
   {
     "name": "MY TV",
