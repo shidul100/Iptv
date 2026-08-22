@@ -11,7 +11,14 @@
     "tvg_id": "",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
     "group": "SPORTS",
-    "url": "https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8"
+    "url": "https://stream.ottplus.bd/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chunks.m3u8"
+  },
+  {
+    "name": "Willow HD",
+    "tvg_id": "",
+    "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png",
+    "group": "SPORTS",
+    "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
   },
   {
     "name": "Bein Sports",
@@ -291,7 +298,7 @@
     "tvg_id": "",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",
     "group": "BANGLADESH",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8?wmsAuthSign="
+    "url": "http://116.204.149.16/globaltv/tracks-v1a1/mono.m3u8"
   },
   {
     "name": "Green TV",
@@ -606,7 +613,7 @@
     "tvg_id": "",
     "logo": "https://i.postimg.cc/3w6F5VZ5/20240822-231514.png",
     "group": "INDIAN BANGLA",
-    "url": "http://103.165.93.31:8095/colorsBangla/tracks-v1a1/mono.m3u8"
+    "url": "http://flowutc.com:80/live/MAGTF8AV71/bUiJLEJKG5/76179.ts"
   },
   {
     "name": "Sun Bangla",
@@ -984,6 +991,6 @@
     "tvg_id": "and_pictures_hd",
     "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-08/images_b29360e9b3bf9d3ce34bd67d06d7c004_playmist_and_pictures_hd_400x400.jpg",
     "group": "HINDI",
-    "url": "http://myxpanel.pro:80/live/Ander1/Ander1/694228.ts"
+    "url": "https://stream.ottplus.bd/live/and_picture_hd_abr/live/and_picture_hd_720/l_601121_209412000_52353.ts?nimblesessionid=123758089"
   }
 ]
