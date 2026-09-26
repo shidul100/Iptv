@@ -39,7 +39,7 @@
     "tvg_id": "",
     "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_5704c544bcbe25521134b299a0298be7_playmist_ptv_sports_400x400.jpg",
     "group": "SPORTS",
-    "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018"
+    "url": "https://flussonic.defineatoz.com/PTV/index.m3u8"
   },
   {
     "name": "Somoy TV",
@@ -256,7 +256,7 @@
     "tvg_id": "",
     "logo": "https://i.postimg.cc/zBCLNtGZ/Duronto.jpg",
     "group": "BANGLADESH",
-    "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+    "url": "http://198.195.239.50:8095/duranta/tracks-v1a1/mono.m3u8"
   },
   {
     "name": "SRK TV",
@@ -509,6 +509,13 @@
     "logo": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
     "group": "KIDS",
     "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8"
+  },
+  {
+    "name": "Cartoon Network",
+    "tvg_id": "",
+    "logo": "https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",
+    "group": "KIDS",
+    "url": "https://s3.ideationtec.live/Cartoon_Network/Cartoon_Network.m3u8"
   },
   {
     "name": "Star Movies HD",
