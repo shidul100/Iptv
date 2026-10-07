@@ -4,7 +4,7 @@
     "tvg_id": "",
     "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "group": "SPORTS",
-    "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
+    "url": "http://103.141.70.136:8080/hls/w5e-eriMVcc1ztmQWBs0rHO_UwR9zN02rvFwk0yV5q_1G0dTmmE1kPsKAgPxAg3cTm9JPB7o9QdmBpsGHF3TMjJhD0Z7iou3na8OQnSiTiITCZBuol2gVwKoWcIxQBAL"
   },
   {
     "name": "Ten Cricket",
@@ -46,7 +46,7 @@
     "tvg_id": "",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",
     "group": "BANGLADESH",
-    "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8"
+    "url": "https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/live/somoy_tv_720/chunks.m3u8"
   },
   {
     "name": "ATN Bangla",
@@ -109,14 +109,14 @@
     "tvg_id": "229000",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
     "group": "BANGLADESH",
-    "url": "http://tvsen5.aynascope.net/maasrangatv/tracks-a1/mono.ts.m3u8"
+    "url": "http://116.204.149.16/maasranga/tracks-v1a1/mono.m3u8"
   },
   {
     "name": "Channel 1 News",
     "tvg_id": "",
     "logo": "https://i.postimg.cc/Zqgx8hm1/20260430-184013.png",
     "group": "BANGLADESH",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8"
+    "url": "https://stream.ottplus.live/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8"
   },
   {
     "name": "Ekattor TV",
@@ -130,7 +130,7 @@
     "tvg_id": "247000",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES_cZZsBNnOkwJLW1Oz1/posters/b872b8f5-cb6b-45a1-a1cd-7609df51d614.png",
     "group": "BANGLADESH",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/independent-8-org.stream/tracks-v1a1/mono.m3u8"
+    "url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8"
   },
   {
     "name": "News 24",
@@ -144,7 +144,7 @@
     "tvg_id": "94000",
     "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
     "group": "BANGLADESH",
-    "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/391.ts"
+    "url": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/live/channel_24_720/chunks.m3u8"
   },
   {
     "name": "Jamuna TV",
@@ -550,7 +550,7 @@
     "tvg_id": "",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",
     "group": "HINDI",
-    "url": "https://stream.ottplus.bd/live/sub_hd_abr/index.m3u8"
+    "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8"
   },
   {
     "name": "Sony entertainment tv",
@@ -571,7 +571,7 @@
     "tvg_id": "",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
     "group": "INDIAN BANGLA",
-    "url": "http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/425.ts"
+    "url": "https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8"
   },
   {
     "name": "SONY AATH HD",
