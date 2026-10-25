@@ -4,7 +4,7 @@
     "tvg_id": "",
     "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "group": "SPORTS",
-    "url": "http://103.141.70.136:8080/hls/w5e-eriMVcc1ztmQWBs0rHO_UwR9zN02rvFwk0yV5q_1G0dTmmE1kPsKAgPxAg3cTm9JPB7o9QdmBpsGHF3TMjJhD0Z7iou3na8OQnSiTiITCZBuol2gVwKoWcIxQBAL"
+    "url": "http://103.114.11.37:8081/T-Sports-FHD/index.m3u8?token=dsgdfgsdfgasf"
   },
   {
     "name": "Ten Cricket",
@@ -585,7 +585,7 @@
     "tvg_id": "",
     "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png",
     "group": "INDIAN BANGLA",
-    "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1657"
+    "url": "http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8?token=dsgdfgsdfgasf"
   },
   {
     "name": "Zee Bangla HD",
